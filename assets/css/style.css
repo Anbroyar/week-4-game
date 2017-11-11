@@ -1,0 +1,54 @@
+body {
+	background-image: url(../images/background.jpg);
+	color: #fff;
+	text-align: center;
+
+}
+header {
+	background: #0000ff;
+	width: 40%;
+	margin: auto;
+}
+section {
+	border: 2px solid #0000ff;
+	border-radius: 10px;
+	background-color: #cce6ff;
+	width: 65%;
+	color: #1a1aff;
+	margin: auto;
+	font-weight: bold;
+}
+#number-guess {
+	background: #cce6ff;
+	border:  2px solid #0000ff;
+	border-radius: 10px;
+	margin: auto;
+	color: #0000ff;
+	width: 100px;
+}
+.win-lose {
+	background: #cce6ff;
+	border:  2px solid #0000ff;
+	border-radius: 10px;
+	margin: auto;
+	color: #0000ff;
+	width: 300px;
+}
+#total-score {
+	background: #cce6ff;
+	border:  2px solid #0000ff;
+	border-radius: 10px;
+	margin: auto;
+	color: #0000ff;
+	width: 300px;
+	font-size: 40px;
+}
+
+
+.crystal-image {
+	margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #0000ff;
+    border-radius: 15px;
+}
