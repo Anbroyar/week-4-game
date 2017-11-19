@@ -10,13 +10,13 @@ var c3 = Math.floor(Math.random() * 11) + 1;
 var c4 = Math.floor(Math.random() * 11) + 1;
 
 function restartgame() {
-  var target = Math.floor(Math.random() * 101) + 19;
+  target = Math.floor(Math.random() * 101) + 19;
   $('#number-guess').text(target);
 
-  var c1 = Math.floor(Math.random() * 11) + 1;
-  var c2 = Math.floor(Math.random() * 11) + 1;
-  var c3 = Math.floor(Math.random() * 11) + 1;
-  var c4 = Math.floor(Math.random() * 11) + 1;
+  c1 = Math.floor(Math.random() * 11) + 1;
+  c2 = Math.floor(Math.random() * 11) + 1;
+  c3 = Math.floor(Math.random() * 11) + 1;
+  c4 = Math.floor(Math.random() * 11) + 1;
    counter = 0;
   $("#total-score").text(counter);
 }
